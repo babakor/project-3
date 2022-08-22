@@ -1,0 +1,247 @@
+body{
+}
+:root{
+  --main-color:#1f87de;
+}.navbar{
+  height: 72px;
+}
+a{
+  text-decoration: none;
+}
+.navbar-toggler{
+  color:#b2b2b2 ;
+}
+.navbar-toggler{
+  border: 1px solid #b2b2b2;
+}
+.navbar-toggler:focus{
+  color:white;
+  box-shadow: none;
+  background-color:var(--main-color);
+ }
+ .contac .container i,
+ .contac .container .lang{
+  color:#80b0d8;
+ }
+ .bv{
+  border-left: 1px solid #80b0d8;
+  border-right: 1px solid #80b0d8;
+  padding: 4px 12px;
+ }
+ .contac .container i:hover,
+ .contac .container .lang:hover{
+  color:white;
+ }
+.contac,
+.contac .container{
+  height: 45px;
+  background-color: #0060b1;
+}
+.navbar-brand img{
+  height: 42px;
+width: 214px;
+}
+@media(max-width:567px) {
+  .navbar-nav,
+  .dropdown-menu{
+    text-align: right;
+  }
+  .navbar-nav{
+    display: flex;
+    flex-direction: column-reverse;
+    display: flex;
+flex-direction: column-reverse;
+background-color: white;
+width: 100%;
+z-index: 39;
+position: absolute;
+left: 0;
+  }
+  .navbar-expand-lg .navbar-nav .ll{
+    background-color: white;
+    color: black !important;
+  }
+  .carousel-inner .carousel-item div{
+    display: none;
+  }
+  .gg div{
+    width: 100% !important;
+  }
+  .jj{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+      
+  }
+  .jj img{
+    display: block;
+width: 100% !important;
+height: 209px !important;
+margin-bottom: 20px;
+    
+  }
+}
+.carousel-control-next{
+  margin-left: -66px
+}
+.carousel-control-prev{
+  margin-right: -66px
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding: 11px 20px;
+  color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link a:hover .menu{
+  display: block !important;
+}
+.ll{
+  background-color:var(--main-color);
+  height: 42px;
+  color: white !important;
+
+}
+.carousel-inner .carousel-item div{
+  position: absolute;
+  bottom: 60px;
+  width: 36%;
+  background-color: rgba(0, 0, 0, 0.74);
+  color: white;
+  right: 122px;
+  padding: 22px;
+  direction: rtl;
+  animation-name: ali;
+  transition: 0.5s;
+  animation-duration: 1s;
+}
+@keyframes ali{
+  0%{
+    bottom: -200px;
+    opacity: 0;
+  }
+  100%{
+    bottom: 60px;
+    opacity: 1;
+  }
+}
+.carousel-inner .carousel-item div a,
+.fet .row .bet a{
+  padding: 9px 20px;
+  background-color: var(--main-color);
+  color: white;
+}
+.fet .row .bet a{
+  display: block;
+  width: 100%;
+  border: 1px solid transparent;
+}
+.fet .row .bet a:hover{
+  background-color:#49c32c ;
+  border: 1px solid black;
+}
+.cors{
+  background-color: #2a3945;
+}
+.cors div span{
+
+  background-color: #0060b1;
+  padding: 10px 0px;
+  margin-top: -43px;
+  z-index: 0;
+  position: relative;
+  right: 0px;
+  text-align: end;
+  padding-right: 5px;
+  width: 100%;
+  display: block;
+  color: white;
+}
+.fet .row .bet .my:hover .hv{
+ color: #49c32c
+}
+.cors div img{
+
+  width: 100%;
+}
+.bet{
+  border: 1px solid #ccc;
+  border-top-color: rgb(204, 204, 204);
+  border-top-style: solid;
+  border-top-width: 1px;
+border-top: 3px solid var(--main-color);
+}
+.bet p{
+  font-size: 14px;
+}
+.bet .my{
+  border: 4px solid #dce4ea;
+  width: 73px;
+  height: 73px;
+  text-align: center;
+}
+.cv{
+  border-top: 1px solid #00000042;
+margin: 24px 0px;
+padding-top: 16px;
+}
+.bet .my span{
+
+  font-size: 13px;
+  display: block;
+  margin-top: -29px;
+}
+.bet .my p{
+  
+  font-size: 36px;
+  color: #4b4b4b;
+  margin-top: -7px;
+}
+.jj img{
+  height: 175px;
+width: 244px;
+}
+.jj .vvvv{
+  
+  font-size: 13px;
+  margin: 0;
+}
+.jj a{
+  font-size: 18px;
+}
+.vbn{
+  color: #7f7f7f;
+  margin: 0;
+}
+.jj .vvvv span{
+  
+  color: #49c32c;
+}
+.hhhh{
+  border-bottom: 1px solid;
+border-top: 1px solid;
+padding: 15px 0px;
+color: #8C8C8C;
+text-align: end;
+}
+.zx{
+  border-left: 1px solid #00000054;
+}
+.gg{
+  text-align: end;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.gg div{
+
+  width: 40%;
+}
+.gg div p{
+padding: 0px 20px 0px 0px;
+ font-size: 14px;
+line-height: 25px;
+}
+.asdf{
+  min-width: 240px;
+}
